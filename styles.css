@@ -10,6 +10,7 @@ body {
     margin: 0;
     padding: 0;
     color: var(--primary-color);
+    background: linear-gradient(120deg, #f6d365 0%, #fda085 100%);
 }
 
 header {
@@ -46,7 +47,7 @@ header nav ul li a {
     display: flex;
     align-items: center;
     padding: 50px 20px;
-    background: var(--secondary-color);
+    background: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
     color: var(--primary-color);
 }
 
@@ -88,7 +89,7 @@ header nav ul li a {
 }
 
 .section:nth-child(even) {
-    background: var(--secondary-color);
+    background: linear-gradient(120deg, #fccb90 0%, #d57eeb 100%);
 }
 
 .section:nth-child(odd) {
