@@ -12,7 +12,6 @@
 <body>
     <!-- Шапка -->
     <header>
-        <div class="logo">Логотип</div>
         <nav>
             <ul>
                 <li><a href="#about" aria-label="Про меня">Про меня</a></li>
@@ -25,7 +24,7 @@
 
     <!-- Герой-блок -->
     <section id="hero">
-        <img src="profile_photo.png" alt="Ольга Агафонова" loading="lazy">
+        <img src="profile_photo.png" alt="Ольга Агафонова" loading="lazy" class="hero-photo">
         <div class="hero-text">
             <h1>Ольга Агафонова</h1>
             <p>Коуч, Ментор, Игропрактик, Бизнес-тренер. Помогу создать, восстановить и реанимировать ваши сферы жизни.</p>
@@ -97,8 +96,13 @@
     <section id="cost" class="section cost">
         <div class="container">
             <h2>Стоимость и оплата</h2>
-            <p>Кармическая консультация: 200 €. Регресс: 200 €. Консультация с регресс-сессией: 350 €. Консультация и месячное наставничество: 500 €.</p>
-            <p>Оплата происходит с помощью онлайн сервиса.</p>
+            <div class="cost-buttons">
+                <a href="#" class="btn">Кармическая консультация: 200 €</a>
+                <a href="#" class="btn">Регресс: 200 €</a>
+                <a href="#" class="btn">Консультация с регресс-сессией: 350 €</a>
+                <a href="#" class="btn">Консультация и месячное наставничество: 500 €</a>
+            </div>
+            <a href="#" class="btn donate">Сделать донат</a>
         </div>
     </section>
 
